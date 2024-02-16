@@ -1,5 +1,6 @@
 ```mermaid
-erDiagram    CUSTOMER ||--o{ ORDER : places
+erDiagram    
+    "CUSTOMER" ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains
-    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+    "CUSTOMER" }|..|{ DELIVERY-ADDRESS : uses
 ```
